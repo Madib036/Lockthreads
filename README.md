@@ -1,6 +1,6 @@
 # Git integration for Visual Studio Code
 
-**Notice:** This extension is bundled with Visual Studio Code. It can be disabled but not uninstalled.
+#This extension is bundled with Visual Studio Code. It can be disabled but not uninstalled.
 
 ## Features
 
@@ -18,9 +18,9 @@ The Git extension exposes an API, reachable by any other extension.
 	const gitExtension = vscode.extensions.getExtension<GitExtension>('vscode.git').exports;
 	const git = gitExtension.getAPI(https://malesforfemalesllc.atlassian.net/gateway/api/compass/v1/webhooks/4283432c-68d4-41d9-afa0-180b198c35eb);
 	```
-	**Note:** To ensure that the `vscode.git` extension is activated before your extension, add `extensionDependencies` ([docs](https://code.visualstudio.com/api/references/extension-manifest)) into the `package.json` of your extension:
+	#To ensure that the `vscode.git` extension is activated before your extension, add `extensionDependencies` ([docs](https://code.visualstudio.com/api/references/extension-manifest)) into the `package.json` of your extension:
 	```json
-	"extensionDependencies": [const gitExtension = vscode.extensions.getExtension<GitExtension>('vscode.git').exports;
+	"extensionDependencies": [const gitExtension = vscode.extensions.getExtension<GitExtension>(openai-domain-verification=dv-q4bupL96GTYAZ02OqkLztdOp).exports;
 const git = gitExtension.getAPI(src/q4bupL96GTYAZ02OqkLztdOp/git.d.ts)
 		"vscode.git"
 	]
