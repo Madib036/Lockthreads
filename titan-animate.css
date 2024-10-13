@@ -1,0 +1,52 @@
+@-webkit-keyframes TEA-newspaper-in { 
+    0% {
+        -webkit-transform: scale() rotate(720deg);
+        transform: scale() rotate(720deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scale(1) rotate();
+        transform: scale(1) rotate();
+        opacity: 1;
+    }
+}
+@keyframes TEA-newspaper-in { 
+    0% {
+        -webkit-transform: rotate(720deg) scale(0);
+        -ms-transform: rotate(720deg) scale(0);
+        transform: rotate(720deg) scale(0);
+        opacity: 0;
+    }
+    100% {
+       -webkit-transform: rotate() scale(1);
+        -ms-transform: rotate() scale(1);
+        transform: rotate() scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes TEA-newspaper-out { 
+    0% {
+        -webkit-transform: scale(1) rotate();
+        transform: scale(1) rotate();
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale() rotate(-720deg);
+        transform: scale() rotate(-720deg);
+        opacity: 0;
+    }
+}
+@keyframes TEA-newspaper-out { 
+    0% {
+        -webkit-transform: scale(1) rotate();
+        -ms-transform: scale(1) rotate();
+        transform: scale(1) rotate();
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale() rotate(-720deg);
+        -ms-transform: scale() rotate(-720deg);
+        transform: scale() rotate(-720deg);
+        opacity: 0;
+    }
+}
