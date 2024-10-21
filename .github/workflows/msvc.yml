@@ -2,7 +2,7 @@
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support documentation.
 Find more information at:
-[https://github.com/microsoft/msvc-code-analysis-action]
+https://github.com/microsoft/msvc-code-analysis-action
    name: Microsoft C++ Code Analysis
    on: CMAKE
    push: fork
